@@ -2,7 +2,7 @@ const pkg = require('./package.json')
 const opzer = require('./lib/optimize')
 const cmd = {
   name: 'other',
-  version: package.version,
+  version: pkg.version,
   path: __dirname,
   optimize: opzer,
   initPackage: {
@@ -10,3 +10,4 @@ const cmd = {
     yy: []
   }
 }
+module.exports = cmd

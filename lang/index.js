@@ -1,4 +1,3 @@
-const  chalk = require('chalk')
 module.exports = {
   PKG_SCRIPT_ALL_NOT_EXISTS: 'npm script 句柄[yyl:o]不存在',
   PKG_SCRIPT_WATCH_NOT_EXISTS: 'npm script 句柄[yyl:d]不存在',
