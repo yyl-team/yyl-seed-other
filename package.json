@@ -6,7 +6,8 @@
     "test": "jest ./test/jest/",
     "eslint": "eslint ./",
     "eslint:fix": "eslint --fix ./",
-    "cbw": "node ./test/run.js watch --config ./test/case/base/yyl.config.js --proxy"
+    "cbw": "node ./test/run.js watch --config ./test/case/base/yyl.config.js --proxy",
+    "cnw": "node ./test/run.js watch --config ./test/case/no-server/yyl.config.js --proxy"
   },
   "main": "index.js",
   "types": "index.d.ts",
@@ -15,7 +16,7 @@
     "eslint-plugin-node": "^11.1.0",
     "jest": "26.4.2",
     "yyl-fs": "^0.3.3",
-    "yyl-hander": "0.11.1",
+    "yyl-hander": "0.11.2",
     "yyl-print": "^0.9.1",
     "yyl-seed-test-util": "^0.4.0",
     "yyl-server": "^0.3.13",

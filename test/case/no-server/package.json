@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "yyl:o": "echo 'hello world o'",
+    "yyl:d": "echo 'hello world d'"
+  }
+}
