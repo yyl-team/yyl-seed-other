@@ -1,0 +1,34 @@
+{
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "test": "jest ./test/jest/"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "name": "yyl-seed-other",
+  "version": "0.1.0",
+  "description": "yyl seed for fec, feb, yss, etc",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackness1208/yyl-seed-other.git"
+  },
+  "author": "jackness",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackness1208/yyl-seed-other/issues"
+  },
+  "homepage": "https://github.com/jackness1208/yyl-seed-other#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yyl-os": "^0.11.2",
+    "yyl-seed-response": "^0.1.1"
+  }
+}
