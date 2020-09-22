@@ -6,8 +6,8 @@ const cmd = {
   path: __dirname,
   optimize: opzer,
   initPackage: {
-    default: [],
-    yy: []
+    default: ['init-me-seed-yyl-other'],
+    yy: ['init-me-seed-yyl-other']
   }
 }
 module.exports = cmd

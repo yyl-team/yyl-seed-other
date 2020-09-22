@@ -4,7 +4,7 @@
   },
   "eslintConfig": {
     "env": {
-      "mocha": true
+      "jest": true
     },
     "extends": [
       "yyl-node"
@@ -48,7 +48,7 @@
     "yyl-util": "^2.3.8"
   },
   "name": "yyl-seed-other",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "yyl seed for fec, feb, yss, etc",
   "directories": {
     "test": "test"
