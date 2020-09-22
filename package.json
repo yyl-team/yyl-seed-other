@@ -2,10 +2,34 @@
   "engines": {
     "node": ">= 8.0.0"
   },
+  "eslintConfig": {
+    "env": {
+      "mocha": true
+    },
+    "extends": [
+      "yyl-node"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "test/case/",
+    "ui-test/",
+    "test/__frag/",
+    "test/__gitcase/"
+  ],
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "endOfLine": "lf",
+    "quoteProps": "consistent",
+    "trailingComma": "none"
+  },
   "scripts": {
     "test": "jest ./test/jest/",
     "eslint": "eslint ./",
-    "eslint:fix": "eslint --fix ./",
+    "eslint:fix": "eslint ./ --fix",
+    "prettier": "prettier --write ./**/*.js",
     "cbw": "node ./test/run.js watch --config ./test/case/base/yyl.config.js --proxy",
     "cnw": "node ./test/run.js watch --config ./test/case/no-server/yyl.config.js --proxy"
   },
@@ -13,8 +37,9 @@
   "types": "index.d.ts",
   "devDependencies": {
     "eslint": "^7.9.0",
-    "eslint-plugin-node": "^11.1.0",
+    "eslint-config-yyl-node": "^0.1.2",
     "jest": "26.4.2",
+    "prettier": "^2.1.2",
     "yyl-fs": "^0.3.3",
     "yyl-hander": "0.11.3",
     "yyl-print": "^0.9.1",
