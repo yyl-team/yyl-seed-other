@@ -1,4 +1,7 @@
 {
+  "name": "yyl-seed-other",
+  "version": "0.1.2",
+  "description": "yyl seed for fec, feb, yss, etc",
   "engines": {
     "node": ">= 8.0.0"
   },
@@ -47,9 +50,7 @@
     "yyl-server": "^0.3.14",
     "yyl-util": "^2.3.8"
   },
-  "name": "yyl-seed-other",
-  "version": "0.1.1",
-  "description": "yyl seed for fec, feb, yss, etc",
+  
   "directories": {
     "test": "test"
   },
