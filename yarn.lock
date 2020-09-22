@@ -5322,10 +5322,10 @@ yyl-fs@^0.2.0:
   resolved "https://registry.yarnpkg.com/yyl-fs/-/yyl-fs-0.2.0.tgz#995aff7c4c64448ea2b8ce2ceca2e2cb76bafa2c"
   integrity sha512-NBs2zgNFg+uc1qEtBNzrUtT6Mcrk6m9KXSA8xsVYMVLFOT1zSdRjucQeUwCjSRfReUBG9sJjeniJTNphX+O70g==
 
-yyl-hander@0.11.2:
-  version "0.11.2"
-  resolved "https://registry.yarnpkg.com/yyl-hander/-/yyl-hander-0.11.2.tgz#e08864ed80248e15a34cc7d4826f80e2f16021ca"
-  integrity sha512-HSxT0l+dWYsKEtrRNen0xvb7qeFGD+LTLiijDAUb6oH8Hftm8XE1z1fUAM0ZvBRl8nbopyi8bV7TgnOd1QT6oQ==
+yyl-hander@0.11.3:
+  version "0.11.3"
+  resolved "https://registry.yarnpkg.com/yyl-hander/-/yyl-hander-0.11.3.tgz#2dd88362dc1f75d1cfff1e60de0d557cc0e36c15"
+  integrity sha512-qTlChg7Sl01sKoS9V2GcUere84R3KOP+WB1O/kIM6FwO1L1Cf4k+xLzFqiMdsurD0aelBVQ1/tMYHfEZwHwqRQ==
   dependencies:
     chalk "^2.4.2"
     concat-with-sourcemaps "^1.1.0"
@@ -5394,10 +5394,10 @@ yyl-seed-test-util@^0.4.0:
     yyl-os "^0.2.0"
     yyl-util "^2.1.0"
 
-yyl-server@^0.3.13:
-  version "0.3.13"
-  resolved "https://registry.yarnpkg.com/yyl-server/-/yyl-server-0.3.13.tgz#cf3359c19731de906396ed7b57d5ce273bf0412b"
-  integrity sha512-h0B+mfs6SZE69yrQZcFFQrhI14CdtyNHyH5OZ+dJBxMgrKFmqAIyVvesWh0SVaAC4PMqnE00SA550sOWNuR6mw==
+yyl-server@^0.3.14:
+  version "0.3.14"
+  resolved "https://registry.yarnpkg.com/yyl-server/-/yyl-server-0.3.14.tgz#9408906b862643fbd62585384428fd803dd31b12"
+  integrity sha512-E7xyKtAazxdkvjflFsQKZNcMCaq3vI33F8Zcod8QSqZuHhzCaBoh9kTrKac8yhTnCySS8ZnX92O3rUgkEa6tHA==
   dependencies:
     "@types/connect" "3.4.33"
     anyproxy "4.1.3"

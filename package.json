@@ -16,10 +16,10 @@
     "eslint-plugin-node": "^11.1.0",
     "jest": "26.4.2",
     "yyl-fs": "^0.3.3",
-    "yyl-hander": "0.11.2",
+    "yyl-hander": "0.11.3",
     "yyl-print": "^0.9.1",
     "yyl-seed-test-util": "^0.4.0",
-    "yyl-server": "^0.3.13",
+    "yyl-server": "^0.3.14",
     "yyl-util": "^2.3.8"
   },
   "name": "yyl-seed-other",
