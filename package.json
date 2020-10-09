@@ -1,6 +1,6 @@
 {
   "name": "yyl-seed-other",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "yyl seed for fec, feb, yss, etc",
   "engines": {
     "node": ">= 8.0.0"
@@ -66,6 +66,7 @@
   "homepage": "https://github.com/jackness1208/yyl-seed-other#readme",
   "dependencies": {
     "chalk": "^4.1.0",
+    "yyl-config-types": "^0.2.0",
     "yyl-os": "^0.11.2",
     "yyl-seed-response": "^0.1.1"
   }
