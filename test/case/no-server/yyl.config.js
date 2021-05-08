@@ -3,9 +3,9 @@ const config = {
   proxy: {
     port: 8887,
     localRemote: {
-      'http://web.yy.com/': 'http://www.yy.com/'
+      'http://web.testhost.com/': 'http://www.testhost.com/'
     },
-    homePage: 'http://web.yy.com/'
+    homePage: 'http://web.testhost.com/'
   }
 }
 
