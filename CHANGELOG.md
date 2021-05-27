@@ -1,4 +1,11 @@
 # 版本信息
+## 1.0.4 (2021-05-27)
+* feat: 更新 `yyl-cmd-logger@0.2.1`
+* feat: 更新 `yyl-config-types@0.5.4`
+* feat: 更新 `yyl-hander@1.3.16`
+* feat: 更新 `yyl-os@0.14.3`
+* feat: 补充 `yylo -v`, `yylo --version`
+* feat: 补充 `yylo -p`, `yylo --path`
 ## 1.0.3 (2021-05-23)
 * feat: 更新 `yyl-cmd-logger@0.2.0`
 ## 1.0.0 (2021-05-12)
